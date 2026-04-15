@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiAzureTarea2", "ApiAzureTarea2\ApiAzureTarea2.csproj", "{B4D4DD0F-B59F-491B-9BA9-9FF713E5456E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4D4DD0F-B59F-491B-9BA9-9FF713E5456E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4D4DD0F-B59F-491B-9BA9-9FF713E5456E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4D4DD0F-B59F-491B-9BA9-9FF713E5456E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4D4DD0F-B59F-491B-9BA9-9FF713E5456E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

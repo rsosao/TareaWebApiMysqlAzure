@@ -1,0 +1,40 @@
+@ApiAzureTarea2_HostAddress = http://localhost:5036
+
+### Listar libros
+GET {{ApiAzureTarea2_HostAddress}}/api/Libros
+Accept: application/json
+
+### Obtener por id
+GET {{ApiAzureTarea2_HostAddress}}/api/Libros/1
+Accept: application/json
+
+### Crear libro
+POST {{ApiAzureTarea2_HostAddress}}/api/Libros
+Content-Type: application/json
+
+{
+  "libroId": 0,
+  "isbn": "978-84-0000-0000-1",
+  "titulo": "Introducción a ASP.NET",
+  "autor": "Autor Ejemplo",
+  "precio": 29.99,
+  "fechaPublicacion": "2024-01-15T00:00:00",
+  "ejemplaresDisponibles": 5
+}
+
+### Actualizar libro (use el mismo id en la URL y en libroId)
+PUT {{ApiAzureTarea2_HostAddress}}/api/Libros/1
+Content-Type: application/json
+
+{
+  "libroId": 1,
+  "isbn": "978-84-0000-0000-1",
+  "titulo": "Introducción a ASP.NET (2.ª ed.)",
+  "autor": "Autor Ejemplo",
+  "precio": 34.50,
+  "fechaPublicacion": "2024-01-15T00:00:00",
+  "ejemplaresDisponibles": 3
+}
+
+### Eliminar libro
+DELETE {{ApiAzureTarea2_HostAddress}}/api/Libros/1
