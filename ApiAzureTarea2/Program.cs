@@ -16,16 +16,16 @@ builder.Services.AddOpenApi();
 
 var app = builder.Build();
 
-if (app.Environment.IsDevelopment())
-{
-    app.MapOpenApi();
-    app.MapScalarApiReference(options =>
-    {
-        options.Title = "ApiAzureTarea2 — Documentación";
-    });
-}
-
 app.UseHttpsRedirection();
+
+app.MapOpenApi();
+app.MapScalarApiReference(options =>
+{
+    options.Title = "ApiAzureTarea2 — Documentación";
+});
+
+app.MapGet("/", () => Results.Redirect("/scalar"));
+
 app.MapControllers();
 
 app.Run();
