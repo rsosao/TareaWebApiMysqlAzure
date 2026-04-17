@@ -18,7 +18,7 @@ Content-Type: application/json
   "titulo": "Introducción a ASP.NET",
   "autor": "Autor Ejemplo",
   "precio": 29.99,
-  "fechaPublicacion": "2024-01-15T00:00:00",
+  "fechaPublicacion": "2024-01-15",
   "ejemplaresDisponibles": 5
 }
 
@@ -32,7 +32,7 @@ Content-Type: application/json
   "titulo": "Introducción a ASP.NET (2.ª ed.)",
   "autor": "Autor Ejemplo",
   "precio": 34.50,
-  "fechaPublicacion": "2024-01-15T00:00:00",
+  "fechaPublicacion": "2024-01-15",
   "ejemplaresDisponibles": 3
 }
 

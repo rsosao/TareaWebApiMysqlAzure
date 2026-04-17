@@ -24,8 +24,8 @@ public class Libro
     [Column(TypeName = "decimal(12,2)")]
     public decimal Precio { get; set; }
 
-    [Column(TypeName = "datetime")]
-    public DateTime FechaPublicacion { get; set; }
+    [Column(TypeName = "date")]
+    public DateOnly FechaPublicacion { get; set; }
 
     public int EjemplaresDisponibles { get; set; }
 }

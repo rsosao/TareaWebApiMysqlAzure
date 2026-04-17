@@ -10,7 +10,7 @@ CREATE TABLE IF NOT EXISTS libros (
   Titulo VARCHAR(200) NOT NULL,
   Autor VARCHAR(150) NOT NULL,
   Precio DECIMAL(12,2) NOT NULL,
-  FechaPublicacion DATETIME NOT NULL,
+  FechaPublicacion DATE NOT NULL,
   EjemplaresDisponibles INT NOT NULL,
   CONSTRAINT PK_libros PRIMARY KEY (libro_id),
   CONSTRAINT IX_libros_Isbn UNIQUE (Isbn)
